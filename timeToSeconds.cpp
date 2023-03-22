@@ -2,7 +2,6 @@
 #include <cmath>
 #include <string>
 
-
 int timeToSeconds(std::string time)
 {
     /* GET SECONDS FROM HOUR */
@@ -20,10 +19,9 @@ int timeToSeconds(std::string time)
     /* RETURN */
     return seconds;
 }
+
 int main(int argc, char** argv)
 {
     int seconds = timeToSeconds(argv[1]);
-
     std::cout << seconds;
-
 }
